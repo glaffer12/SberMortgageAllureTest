@@ -24,7 +24,7 @@ public class BaseSteps {
 
     @Before
     public static void setUp() throws Exception {
-        switch (properties.getProperty("browser")) {
+        switch (System.getProperty("browser")) {
             case "firefox":
                 System.setProperty("webdriver.gecko.driver", properties.getProperty("webdriver.gecko.driver"));
                 driver = new FirefoxDriver();
