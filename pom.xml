@@ -101,6 +101,14 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>my_profile</id>
+                <properties>
+                    <test.param>${environment.browser}</test.param>
+                </properties>
+        </profile>
+    </profiles>
 
 
 </project>

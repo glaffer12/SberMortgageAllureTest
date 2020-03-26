@@ -34,7 +34,7 @@ public class SberAllureTest {
                 .checkFieldValue("Сумма кредита","2 122 000 ₽")
                 .checkFieldValue("Ежемесячный платёж", "17 535 ₽")
                 .checkFieldValue("Необходимый доход", "29 224 ₽")
-                .checkFieldValue("Процентная ставка", "11 %");
+                .checkFieldValue("Процентная ставка", "9,3 %");
     }
 
     @After
