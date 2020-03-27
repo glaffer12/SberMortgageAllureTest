@@ -80,7 +80,6 @@ public class MortgagePage extends BasePage {
     }
 
     public static WebElement getValue(String Name) {
-
         switch (Name) {
             case "Сумма кредита":
                 return AmountOfCredit;
