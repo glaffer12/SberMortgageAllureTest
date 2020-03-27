@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = { "src/test/" },
         glue = {"ru.appline.autotest.glue"},
-        plugin = {"ru.appline.autotest.glue.AllureListener"}
+        plugin = {"io.qameta.allure.cucumber3jvm.AllureCucumber3Jvm"}
 
 )
 public class CucumberRunner {
